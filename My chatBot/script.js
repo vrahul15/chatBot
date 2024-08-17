@@ -93,7 +93,7 @@ const handleOutgoingChat = () => {
   userMessage = typingForm.querySelector(".typing-input").value.trim();
   if (!userMessage) return; // If userMessage is null, it returns. i.e., Exit if there is no message.
   const html = `<div class="message-content">
-          <img src="./images/ayush.jpg" alt="" class="avatar" />
+          <img src="./images/rahul.jpg" alt="" class="avatar" />
           <div class="text"></div>
         </div>`;
 
